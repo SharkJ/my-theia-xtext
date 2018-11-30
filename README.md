@@ -1,4 +1,4 @@
-# Theia & Xtext Example
+# Theia & Xtext Example [FOR SAMPLE DSL]
 
 A Theia Application with an Xtext-based Language Server extension.
 
