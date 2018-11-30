@@ -2,7 +2,7 @@
 
 A Theia Application with an Xtext-based Language Server extension.
 
-... or check it out locally:
+Check it out on Gitpod or locally:
 
 Build the language server
 ```
