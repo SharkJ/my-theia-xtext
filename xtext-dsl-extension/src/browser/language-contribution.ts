@@ -47,22 +47,27 @@ export function registerDSL() {
             {
                 open: '(',
                 close: ')'
-            }]
+            },
+            {
+                open: '-----------------------------',
+                close: '-----------------------------'
+            }
+        ]
     })
     monaco.languages.setMonarchTokensProvider('dsl', <any>{
         // Set defaultToken to invalid to see what you do not tokenize yet
         // defaultToken: 'invalid',
 
         keywords: [
-            'protocol', 'type', 'request', 'notification', 'extends'
+            'projection', 'component', 'layer', 'description', 'category', 'entityset', 'for'
         ],
 
         typeKeywords: [
-            'boolean', 'number', 'string'
+            'Users', 'Developers', 'string'
         ],
 
         operators: [
-            ':'
+            ';'
         ],
 
         // we include these common regular expressions
