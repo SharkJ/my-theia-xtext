@@ -15,5 +15,5 @@ Build and start Theia
 ```
    yarn install &&
    cd app &&
-   yarn start
+   yarn start (in gitpod, use 'yarn start --hostname 0.0.0.0 --port 3000' instaed)
 ```
